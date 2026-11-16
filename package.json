@@ -1,0 +1,13 @@
+{
+  "name": "avvuchet",
+  "version": "1.0.0",
+  "description": "MCP server for official Italian and EU legal sources (Normattiva, EUR-Lex, institutional sites)",
+  "type": "module",
+  "bin": { "avvuchet": "server.mjs" },
+  "files": ["server.mjs", "README.md", "LICENSE"],
+  "keywords": ["mcp", "model-context-protocol", "normattiva", "eur-lex", "italian-law", "legal-research"],
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.mjs" },
+  "license": "MIT",
+  "author": "Mirko Tappini"
+}
